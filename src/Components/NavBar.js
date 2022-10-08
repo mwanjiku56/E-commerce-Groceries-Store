@@ -37,14 +37,14 @@ function NavBar() {
         About
       </NavLink>
       <NavLink
-        to="/store"
+        to="/signup"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkblue",
         }}
       >
-        Store
+        SignUp
        
       </NavLink>
       <button style={{width:"3rem", height:"3rem",position:"relative"}} variant="outline-primary" >
