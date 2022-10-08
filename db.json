@@ -1,10 +1,18 @@
 {
     "products":[
         {
-            "image":"",
-            "Name":"",
-            "Amount":0,
-            "Description":""
+            "id":1,
+            "name":"Bell Peppers",
+            "amount":220,
+            "description":"Pepper are of three different colours,yellow, red and green"
+            
+        },
+        {
+            "id":2,
+            "name":"Onions",
+            "amount":120,
+            "description":"Red bulb onions are a staple in every home and make the best meals"
+            
         }
     ]
 }
