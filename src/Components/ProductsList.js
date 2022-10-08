@@ -12,25 +12,28 @@ useEffect(() => {
 
 
   return (
-    <div className='products'>
+    <table>
 
-  <tbody>
+  <thead>
     <tr>
         <th>Product Id</th>
         <th>Name</th>
         <th>Amount</th>
         <th>Description</th>
     </tr>
-  </tbody>
+  </thead>
+  <tbody>
   {products.map((product,id) => (
     <tr key={id}>
         <td>{product.id}</td>
         <td>{product.name}</td>
         <td>{product.amount}</td>
         <td>{product.description}</td>
+        <td><button type='button'>Incart</button></td>
     </tr>
   ))}
-</div>
+  </tbody>
+  </table>
 )
 }
 
